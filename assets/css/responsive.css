@@ -1,0 +1,247 @@
+
+/*Media query 1200px*/
+
+@media screen and (max-width: 1200px){
+
+    /*HEADER - MENU*/
+    .container__header,
+    .about{
+        max-width: 960px;
+    }
+
+    .menu nav{
+        margin: 0px 4px;
+    }
+
+    .menu nav ul li{
+        margin: 0px 8px;
+    }
+
+    .menu nav ul li a{
+        font-size: 14px;
+    }
+
+    /*PORTADA - COVER*/
+    .cover{
+        width: 90%;
+        max-width: 960px;
+    }
+
+    .text__cover{
+        padding-right: 20px;
+    }
+    .text__cover h1{
+        font-size: 40px;
+    }
+
+    .text__cover p{
+        font-size: 34px;
+    }
+
+    .text__cover p2{
+        max-width: 300px;
+    }
+
+    .image__cover img{
+        width: 450px;
+    }
+
+    .image__about img{
+        width: 250px;
+    }
+
+    /*PROYECTOS*/
+    .container-proyectos{
+        width: 90%;
+        max-width: 960px;      
+        padding-left: 50px; 
+    }
+
+    .proyectos p{
+        padding-left: 8px;
+        font-size: 15px;
+    }
+
+    .proyectos h1{
+        font-size: 20px;
+    }
+
+    /*FOOTER*/
+    .footer-page{
+        padding-top: 90px;
+    }
+
+    .footer-page .group{
+        width: 80%;
+        margin: auto;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+
+    .footer-page .group p{
+        font-size: 20px;
+    }
+
+}
+
+/*Media query 960px*/
+
+@media screen and (max-width: 960px){
+
+    /*HEADER - MENU*/
+    .logo{
+        right: 10px;
+    }
+
+    .logo img{
+        width: 160px;
+    }
+
+    .bars__menu{
+        display: block;
+
+    }
+
+    .container__header,
+    .about{
+        max-width: 768px;
+    }
+
+.menu{
+        height: 100vh;
+        position: absolute;
+        top: 0;
+        right: -380px;
+        padding-top: 80px;
+        padding-right: 90px;
+        padding-left: 100px;
+        background: #1B2430;
+        flex-direction: column;
+        box-shadow: 10px 0px 40px -20px rgba(37, 16, 153, 0.555);
+        transition: all 400ms;
+    }
+
+    .menu__active{
+        right: 0;
+    }
+
+    .menu nav{
+        margin-left: -80px;
+    }
+
+    .menu nav ul {
+        flex-direction: column;
+    }
+
+    .menu nav ul li{
+        margin: 18px 10px;
+    }
+
+    .menu nav ul li a{
+        font-size: 16px;
+    }
+   
+/*PORTADA - COVER 960px*/
+
+    .text__cover{
+        width: 90%;
+        max-width: 768px;
+        padding-right: 20px;
+    }
+    .text__cover h1{
+        font-size: 20px;
+    }
+
+    .btn-cv{
+        font-size: 14px;
+    }
+
+}
+
+/*PORTADA COVER 1250*/
+@media screen and (max-width: 1250px){
+    .text__cover{
+        width: 90%;
+    }
+
+    .text__cover h1{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    /*PORTADA - COVER*/
+
+    .cover{
+        margin-top: 40px;
+        max-width: 600px;
+        flex-direction: column;
+    }
+
+}    
+
+
+
+
+/*SOBRE MIIIIIIIIIIIIIIIIIIIIIIIIIII*/
+@media screen and (max-width: 960px){
+    .container__mi{
+        margin-top: -210px;
+    }
+
+    .mi{
+        max-width: 768px;
+    }
+
+    .text__mi{
+        text-align: left;
+        padding-right: 20px;
+    }
+
+    .text__mi ul li{
+        white-space: nowrap;
+    }
+
+    .text__mi h1{
+        font-size: 30px;
+    }
+
+    .text__mi p{
+        font-size: 14px;
+    }
+
+    .image__mi img{
+        width: 300px;
+
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .mi{
+        margin-top: 40px;
+        max-width: 600px;
+        flex-direction: column;
+    }
+
+
+    .image__mi img{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+}    
+
+
+/*PROYECTOS MEDIA 768*/
+
+@media screen and (max-width: 768px) {
+    .grid-contenedor-proyectos{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+    
